@@ -141,7 +141,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <Label htmlFor="size">Tamaño</Label>
-                  <Select id="size">
+                  <Select>
                     <SelectTrigger>
                       <SelectValue placeholder="Select size" />
                     </SelectTrigger>
